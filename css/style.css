@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap&#39');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.menu{
+    background: linear-gradient(90deg, #131E26 60%, #223947, #325A6F);
+    max-width: 100%;
+    height: 80px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 60px;
+}
+.logo{
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+}
+
+.logo img{
+    width: 200px;
+}
+
+ul{
+    display: flex;
+    font-size: 1rem;
+    color: #fff;
+    gap: 35px;
+    text-decoration: none;
+    list-style: none;
+}
+.btn1{
+    background: linear-gradient(90deg, #349054, #57c3f0);
+    color: white;
+    width: 170px;
+    height: 48px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    border-style: none;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+}
+.heroSection{
+    width: 100%;
+    height: 90dvh;
+    background-size: cover;
+    background: linear-gradient(90deg, #131E26 60%, #223947, #325A6F);
+    display: flex;
+    align-items: center;
+    
+}
+.mensagem{
+    color: white;
+    display: flex;
+    height: inherit;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    font-size: 4rem;
+    text-align: start;
+    padding-left: 34px;
+    gap: 20px;
+}
+.mensagem p{
+    font-size: small;
+}
+.image img{
+    width: 900px;
+    height: 650px;
+}
+.sla{
+    display: flex;
+    gap: 10px;
+    font-size: 0.8rem;
+}
+.sla img{
+    width: 20px;
+    height: 20px;
+}
+.blogPost{
+    max-width: 100%;
+    height: 100dvh;
+    background-size: cover;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    padding: 20px; 
+    color: #000000;
+}  
+.filho{
+    background-color: #fff;
+    max-width: 20%;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);  
+    flex-wrap: wrap;
+}
+.filho img{
+    width: 100%;
+    height: 200px;
+}
+.filho h3{
+    text-align: center;
+}
+.btn2{
+    background-color: #000000;
+    color: #fff;
+    max-width: 100%;
+    height: 70px;
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);  
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+.btn2:hover{
+    background-color: blue;
+    color: white;
+    transform: scale(1.1)
+}
+.pai{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    gap: 38px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+}
